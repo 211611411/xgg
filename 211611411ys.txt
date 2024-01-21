@@ -30,7 +30,7 @@
       "quickSearch": 1,
       "changeable": 1,
       
-  //     "jar":"https://k.hhyyqq.com/uploads/itvbox/jar/fan1128.jar;md5;ea2690fc66083afe1431071968e60395",
+  //     "jar":"https://ghproxy.net/https://raw.githubusercontent.com/211611411/xgg/main/Yoursmile.jar;md5;a8b67c6e7ae00f56c43f6946764f0102",
       "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/nmys.json"
     },
 
@@ -46,7 +46,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-   //  "jar":"https://k.hhyyqq.com/uploads/itvbox/jar/fan1128.jar;md5;ea2690fc66083afe1431071968e60395",
+   //  "jar":"https://ghproxy.net/https://raw.githubusercontent.com/211611411/xgg/main/Yoursmile.jar;md5;a8b67c6e7ae00f56c43f6946764f0102",
       "ext": "https://www.czzy66.com/"
     },
 
