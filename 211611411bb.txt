@@ -4,7 +4,7 @@
     "show_notice": false,
     "image_url": "http://xgwp.wuaze.com/view.php/0b414480b5a67cf229d0a5f916bb5c7d.jpg",
     "api_url": "https://cdn.jsdelivr.net/gh/211611411/xgg/211611411tv.txt",
-    "remark": "在匆匆岁月里，多少美好瞬间已成过去，再回首，恍然如梦。虽不能相。",
+    "remark": "在匆匆岁月里，多少美好瞬间已成过去，再回首，恍然如梦。虽不能相伴到最后，仍感激命运曾让我们相遇。离别也是人生的旅程，愿未来的你仍能与家人共享电视机前的美好时光。",
     "show_marquee": true,
     "marquee_content": "轩哥提示：不要相信视频中任何广告，谨防上当！",
     "update": "Yes",
