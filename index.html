@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>进群抽免费会员</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, viewport-fit=cover"></meta>
+        <link rel="icon" href="data:,"></link>
+        <link rel="stylesheet" type="text/css" href="//res.wx.qq.com/open/libs/weui/2.4.0/weui.min.css?v=2023122201"></link>
+        <link rel="stylesheet" type="text/css" href="https://file.wailian1.cn/wl/css/site.templete.min.css?v=2023122201"></link>
+        <link href="//at.alicdn.com/t/c/font_3894745_oqhpczzw1rk.css" rel="stylesheet" type="text/css"></link>
+        <script src="//file.wailian1.cn/assets/js/v2/jquery-3.5.1-min.js?v=2023122201"></script>
+        <script src="//file.wailian1.cn/assets/js/libs/cryptojs/md5.js?v=2023122201"></script>
+        <script src="//file.wailian1.cn/assets/js/libs/cryptojs/aes.js?v=2023122201"></script>
+        <script src="//file.wailian1.cn/assets/js/v2/qrcode.min.js?v=2023122201"></script>
+        <script src="//file.wailian1.cn/assets/js/v2/clipboard.min.js?v=2023122201"></script>
+        <script src="//file.wailian1.cn/wl/js/wailian.static.min.js?v=2023122201"></script>
+        <script src="//file.wailian1.cn/wl/js/wailian.common.v1.min.js?v=2023122201"></script>
+        <script type="text/javascript">
+            
+        var linksInfo = 'FwHpO0+FkxBAUQQLghqVFHUw3oro6StEvK7Y8XLOX2E63coDW7hdmpZ+HZW8rWGTjldh4vhM8lor2BtDDpYF/OsefR5c1O6Kq2kuCitF5m/0v1XIEx3VKccAx8nFS1resStdMVXcjgoQmX2ZnafzfFg0nh59Yxj0JfOeODtF1X9T5t8jH+rHoHZDtVPrkMC+ViJBkpBguhADJ00dOgh1IUjY/QY367wTWigV4TO1J8Lv7WC4+kEIpM/o5b/OVo/cL1IpuqHJq0ZQhUstZNMQrd/MKGSJZyryjHg4eggLLHXWe0OtapRvF2H6/WvE4T+dRfq0IfXdEtfofJgv2qUFCdIWPAsenhGWDTJNhpHXv0jnGDPEor7HihH9Fvi9li5yHDZo7EzmeGd5FH5bvWumwkM0LRv0w9Ri6kAboICvOGGaRY/gJk4xTyU20Xr9t0oWHlqtJCfLdUeGEwDkJWYJNw==';
+  
+        </script>
+    </head>
+    <body>
+        <div class="site-contain">
+            <div class="edit-htmldom htmldom-activity" id="YY76ERh23nRrHAzHc53w6NjfayXNc7T6" platfrom="img">
+                <img draggable="false" src="https://doye.oss-cn-beijing.aliyuncs.com/uploads/20230201/202302011408065115.jpg" class="site-img-12"></img>
+            </div>
+            <div class="edit-htmldom" id="6KAhRPwiWQs4wWwTiGFixH8txCXx7CrB" platfrom="wechat" platfrom_detial="wechat_one">
+                <div class="wechat_one" onclick="simpleSubmit();">
+                    <i class="iconfont icon-weixin"></i>
+                    <font>点击立即前往微信</font>
+                </div>
+            </div>
+            <p class="copy-notice" style="display: block;">
+                <font>如链接无法打开微信展示二维码，请复制到微信打开；点击 </font>
+                <span id="copylink" data-clipboard-text="https://s.pdb2.com/pages/20220722/cmLQ4qOs4Ah8GQl.html">复制链接</span>
+            </p>
+        </div>
+        <div class="site-copyright" id="showCopyright" style="margin-top: -100px; display: none;">
+            <div class="site-copyright-text">
+                
+©️
+                <a href="https://www.tiantianwailian.com/" target="_blank">「天天外链」</a>
+                提供技术支持
+            </div>
+        </div>
+        <div class="site-pc-qrcode">
+            <div id="preview_qrcode"></div>
+            <p>请使用手机扫码访问落地页</p>
+        </div>
+        <div id="site_alert_contain" class="site-alert-contain" style="display:none;"></div>
+        <div class="page" id="noticeError" style="display:none;">
+            <div class="weui-msg">
+                <div class="weui-msg__icon-area">
+                    <i class="weui-icon-info weui-icon_msg"></i>
+                </div>
+                <div class="weui-msg__text-area">
+                    <h2 class="weui-msg__title">请在微信内打开</h2>
+                    <p class="weui-msg__desc">如链接无法打开微信二维码，请复制到微信打开。</p>
+                </div>
+                <div class="weui-msg__opr-area">
+                    <p class="weui-btn-area">
+                        <span id="errorcopylink" data-clipboard-text="https://s.pdb2.com/pages/20220722/cmLQ4qOs4Ah8GQl.html" class="weui-btn weui-btn_primary">复制链接</span>
+                    </p>
+                </div>
+                <div class="weui-msg__extra-area">
+                    <div class="weui-footer">
+                        <p class="weui-footer__text">
+                            © 
+                            <a href="https://www.tiantianwailian.com/" style="color: var(--weui-FG-2);">天天外链</a>
+                             提供技术支持
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="debug"></div>
+        <script type="text/javascript">
+            
+        $(document).ready(function() {
+            try {
+                getLinksDetial();
+            } catch(error){
+                $("#debug").text(error);
+                errorReport(error)
+            }
+        });
+    
+        </script>
+    </body>
+</html>
